@@ -1,0 +1,40 @@
+
+.popupClose {
+    width: max-content;
+    text-align: right;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-top: 10px;
+    border: unset;
+    border-radius: 100%;
+    padding: 3px 10px;
+    font-weight: bold;
+  }
+  .popupContent {
+    text-align: center;
+  }
+  .popupInfo.success .modal-content {
+    background-color: #c8ffc8;
+  }
+  .popupInfo.error .modal-content {
+    background-color: #fdc1c1;
+  }
+  .modal-content {
+    border: unset;
+    box-shadow: 1px 1px 10px 10px #0000001f;
+    min-height: 200px;
+  }
+  .popupContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .popup-btn {
+    border: 1px solid #ddd;
+    width: max-content;
+    margin: auto;
+    padding: 5px 20px;
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+  }
